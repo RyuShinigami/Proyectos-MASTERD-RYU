@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapa de Ubicación</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <style>
         #map {
@@ -30,13 +30,13 @@
             <li><a href="../Views/presupuesto.html">PRESUPUESTO</a></li>
             <li><a href="../Views/productos.html">PRODUCTOS</a></li>
         </ul>
-
+    </nav>
     <h2>Ubicación de Nuestra Empresa</h2>
     <div id="map"></div>
     <article>
         <h3>Información de Contacto</h3>
         <p>Correo:patoconsultas@gmail.com</p>
-
+    </article>
     <script>
         var map = L.map('map').setView([40.712776, -74.005974], 15); // Cambia las coordenadas
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
