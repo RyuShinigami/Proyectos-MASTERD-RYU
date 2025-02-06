@@ -1,0 +1,12 @@
+@font-face{
+    font-family: voguebold;
+    src: url(../ASSETS/pdf/vogue_bold.eot);
+}
+@font-face {
+    font-family: voguebold;
+    src: url(../ASSETS/pdf/vogue_bold.ttf);
+}
+.texto{
+    font-family: voguebold;
+    cursor: pointer; 
+}

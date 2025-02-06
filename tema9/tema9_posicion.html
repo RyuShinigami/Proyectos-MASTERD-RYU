@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica de posición</title>
+    <style>
+        .imagen1{
+            position: relative;
+            width: 450px;
+            left: 30%;
+            border: 2px dotted black;
+            z-index: 2;
+        }
+        .imagen2{
+            position: absolute;
+            width: 450px;
+            top: 10%;
+            right: 30%;
+            border: 2px solid red;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <!--Tienes que hacer dos imagenes superpuestas
+    y utilizar el atributo z-index -->
+    <img src="./ASSETS/Img/coche antiguo.jpg" class="imagen1" alt="Coche viejo">
+    <img src="./ASSETS/Img/imag.jpg" class="imagen2" alt="Coche nuevo">
+  
+</body>
+</html>
